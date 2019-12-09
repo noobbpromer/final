@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* body{
+    min-height: 100vh;
+    background-image:url(image/sky.jpg);
+    background-size: cover;
+
+  } */
+  
+  .con{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-table{
+    background: white;
+    flex: 1;
+    margin: 10px;
+    text-transform: uppercase;
+    border-style:solid;
+    border-color: #696969;
+    margin-top: 100px;
+  }
+  
+  .pricing-header{
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .price{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .price span{
+    font-size: 30px;
+  }
+  
+  .title{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 80%;
+    max-width: 360px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  
+  .pricing-list{
+    padding: 10px 20px;
+  }
+  
+  .pricing-list li{
+    margin: 8px 0;
+    font-size: 14px;
+    color: #344;
+    text-align: center;
+  }
+  
+  .border{
+    width: 80px;
+    height: 1px;
+    background: white;
+    margin: auto;
+  }
+  
+  .pricing-table a{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+    border: 1px solid;
+    max-width: 360px;
+    transition: .2s linear;
+  }
+  .pricing-table a:hover{
+    border-radius: 30px;
+  }
+  .table1 .pricing-header{
+    background:  #FFB6C1;
+  }
+  .table2 .pricing-header{
+    background: #E9967A;
+  }
+  .table3 .pricing-header{
+    background: #c0392b;
+  }
+  
+  .table1 .title{
+    background-image: linear-gradient(125deg,#FFB6C1,#9b59b6);
+  }
+  .table2 .title{
+    background-image: linear-gradient(125deg,#E9967A,#95a5a6);
+  }
+  .table3 .title{
+    background-image: linear-gradient(125deg,#e74c3c,#f39c12);
+  }
+  
+  .table1 a{
+    color: #FFB6C1;
+  }
+  .table2 a{
+    color: #E9967A;
+  }
+  .table3 a{
+    color: #c0392b;
+  }
+  
+  .table1 a:hover{
+    background: #FFB6C1;
+    color: #fff;
+  }
+  .table2 a:hover{
+    background: #E9967A;
+    color: #fff;
+  }
+  .table3 a:hover{
+    background: #c0392b;
+    color: black;
+  }
+
+  	/* styles unrelated to zoom */
+		* { border:0; margin:0; padding:0; }
+
+
+	/* style for zoomer in order to keep it in box */
+		.zoom {
+			display:inline-block;
+      position: relative;
+      
+		}
+		
+		
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+      right:20;
+      
+	
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+    .zoom img::selection { background-color: transparent; }
+    
+    #ex2{
+      margin-left: 60px;
+    }
+    #ex3{
+      margin-left: 170px;
+    }
+
+    hr {
+      background: white;
+  }
+
+  .contact-form {
+      background: rgba(0, 0, 0, .6);
+      color: white;
+      
+      padding: 20px;
+      box-shadow: 0px 0px 10px 3px grey;
+  }
+  .hide{
+          display: none;
+      }
+      .c1{
+          position: fixed;
+          top:0;
+          bottom: 0;
+          left:0;
+          right: 0;
+          background: rgba(0,0,0,.5);
+          z-index: 3;
+      }
+      .c2{
+
+          position: relative;
+          
+          z-index: 4;
+         
+          margin-left: 40px; 
+          top: 40px;
+          
+
+      }
+
+      .b1{
+          background: pink;
+      }
+      .b2{
+          background: brown;
+
+      }
+      .b3{
+          background: white;
+
+      }
+
+      #table3{
+        margin-left: -20px;
+    }
+
+  #result{
+
+    color:white;
+  }
+
+    .invalid { background-color: red; }
+    /* #error { color: red }
+    #no{color: red} */

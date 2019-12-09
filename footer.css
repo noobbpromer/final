@@ -1,0 +1,26 @@
+
+
+ .btne{
+        margin:20px;   
+ }
+        
+
+.btne i {
+     line-height: 60px;
+     font-size: 36px;
+     transition: 0.2s linear;
+     color:white;
+    
+     
+}
+.btne:hover i{
+    transform: scale(1.4);
+    color:greenyellow;
+}
+
+.invalid { border-color: red; }
+#error { color: red }
+#no{color: red}
+#zip{color: red}
+
+
